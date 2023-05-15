@@ -23,11 +23,6 @@ h1, h2, h3, h4 {
   letter-spacing: 2px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 header {
   padding: 80px 0;
   text-align: center;
@@ -75,6 +70,11 @@ header h2 {
   line-height: 200% ;
 }
 
+#greeting a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #details {
   padding: 80px 0;
   background: #bebebe;
@@ -103,10 +103,6 @@ header h2 {
   margin-top: 30px;
 }
 
-#time-place{
-  padding: 80px 0;
-}
-
 .time-place div:first-child {
   margin-bottom: 30px;
 }
@@ -116,11 +112,20 @@ header h2 {
 
 }
 
+#details #map {
+  margin-top: 15px;
+}
+
 footer {
   padding: 80px 0;
   text-align: center;
   background: #1B1B1E;
   color: #FAA916;
+}
+
+#footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) { 

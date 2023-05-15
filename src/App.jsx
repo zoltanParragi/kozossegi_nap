@@ -48,24 +48,22 @@ function App() {
               </ul>
             </div>
             <div className='details-item'>
-              <h3>Amit hozz magaddal</h3>
+              <h3>Amit hozhasz magaddal</h3>
               <ul>
                 <li><FontAwesomeIcon icon="fa-solid fa-cake-candles" size="xl" style={{ color: "#96031A" }} /> <span>egy tálca süti</span></li>
-              </ul>
-              <h3 id="you-can-bring">És amit még hozhatsz</h3>
-              <ul>
                 <li><FontAwesomeIcon icon="fa-solid fa-volleyball" size="xl" style={{ color: "#96031A" }} /> <span>sport eszköz</span></li>
               </ul>
             </div>
             <div className='details-item time-place'>
               <div>
                 <h3>Időpont:</h3>
-                <p>2023. június 10. (szombat) XX óra ...</p>
+                <p>2023. június 10. (szombat) 9 órától</p>
               </div>
               <div>
                 <h3>Helyszín:</h3>
-                <p>Zalaegerszeg, Vorhota ....</p>
-                <p>Térkép: ...</p>
+                <p>Zalaegerszeg, Vorhotai szabadidőközpont</p>
+                <p>Szekeresvölgyi utca 1.</p>
+                <p id="map"><a href="https://goo.gl/maps/gV5oJWcVUmGKgQDC9" target="_blank" >Térkép</a></p>
               </div>
             </div>
           </div>
@@ -73,8 +71,10 @@ function App() {
       </main>
 
       <footer>
-        <p>Azonképen sokan egy test vagyunk a Krisztusban, egyenként pedig egymásnak tagjai.</p>
-        <p>Róm 12:5</p>
+        <div id="footer-wrapper">
+          <p>Azonképen sokan egy test vagyunk a Krisztusban, egyenként pedig egymásnak tagjai.</p>
+          <p>Róm 12:5</p>
+        </div>
       </footer>
 
     </>
