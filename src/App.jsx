@@ -16,7 +16,7 @@ function App() {
     <>
       <header>
         <div id="header-wrapper">
-          <h1>Közöségi nap Vorhotán</h1>
+          <h1>Közösségi nap Vorhotán</h1>
           <h2>Mert együtt lenni jó!</h2>
           <h3>a zalaegerszegi keresztény gyülekezet szervezésében</h3>
         </div>
